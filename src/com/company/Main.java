@@ -24,12 +24,6 @@ public class Main {
 
         firstObject.printCurrentNumber("firstPObject");
         addTenTimesAnyCounter(firstObject);
-        Counter secondObject = new Counter(100);
-        addTenTimesAnyCounter(secondObject);
-        secondObject.printCurrentNumber("SecondObject");
-        DigitalCounter digitalCounter = new DigitalCounter(155);
-        addTenTimesAnyCounter(digitalCounter);
-        digitalCounter.printCurrentNumber("Digital Counter");
 
     }
 
